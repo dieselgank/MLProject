@@ -1,0 +1,9 @@
+digest: d3b40c02
+name: dataset
+profile: '{"features_shape": [320, 11], "features_size": 3520, "features_nbytes":
+  28160}'
+schema: '{"mlflow_tensorspec": {"features": "[{\"type\": \"tensor\", \"tensor-spec\":
+  {\"dtype\": \"float64\", \"shape\": [-1, 11]}}]", "targets": null}}'
+source: '{"tags": {"mlflow.user": "aspire", "mlflow.source.name": "modelling.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code

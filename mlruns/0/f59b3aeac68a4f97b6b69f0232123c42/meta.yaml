@@ -1,0 +1,14 @@
+artifact_uri: file:///home/aspire/Documents/Eksperimen_SML_M-Adam-Raya/Wine/Membangun_model/Workflow-CI/MLProject/mlruns/0/f59b3aeac68a4f97b6b69f0232123c42/artifacts
+end_time: 1750405461956
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f59b3aeac68a4f97b6b69f0232123c42
+run_name: placid-skunk-721
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750405456008
+status: 3
+tags: []
+user_id: aspire

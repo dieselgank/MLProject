@@ -1,0 +1,10 @@
+artifact_location: file:///home/aspire/Documents/Eksperimen_SML_M-Adam-Raya/Wine/Membangun_model/Workflow-CI/MLProject/mlruns/0/models/m-f28e5defba8e402f9aea404ca11febef/artifacts
+creation_timestamp: 1750406087006
+experiment_id: '0'
+last_updated_timestamp: 1750406089455
+model_id: m-f28e5defba8e402f9aea404ca11febef
+model_type: null
+name: model
+source_run_id: ab3610e8fb6a4fc39ece4ba9662dc527
+status: 2
+status_message: null

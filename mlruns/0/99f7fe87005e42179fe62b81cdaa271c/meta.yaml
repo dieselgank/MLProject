@@ -1,0 +1,14 @@
+artifact_uri: file:///home/aspire/Documents/Eksperimen_SML_M-Adam-Raya/Wine/Membangun_model/Workflow-CI/MLProject/mlruns/0/99f7fe87005e42179fe62b81cdaa271c/artifacts
+end_time: 1750405954154
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 99f7fe87005e42179fe62b81cdaa271c
+run_name: invincible-goose-540
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750405950374
+status: 3
+tags: []
+user_id: aspire

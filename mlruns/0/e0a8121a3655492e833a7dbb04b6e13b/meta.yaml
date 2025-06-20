@@ -1,0 +1,14 @@
+artifact_uri: file:///home/aspire/Documents/Eksperimen_SML_M-Adam-Raya/Wine/Membangun_model/Workflow-CI/MLProject/mlruns/0/e0a8121a3655492e833a7dbb04b6e13b/artifacts
+end_time: 1750405599806
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e0a8121a3655492e833a7dbb04b6e13b
+run_name: thoughtful-fawn-662
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750405594041
+status: 3
+tags: []
+user_id: aspire

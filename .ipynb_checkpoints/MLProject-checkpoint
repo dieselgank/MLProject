@@ -1,0 +1,9 @@
+name: WineQualityPrediction
+
+# Lingkungan software untuk proyek ini
+conda_env: conda.yaml # Atau bisa juga menggunakan requirements.txt
+
+# Titik masuk (entry points) untuk menjalankan proyek
+entry_points:
+  main:
+    command: "python modelling.py"
