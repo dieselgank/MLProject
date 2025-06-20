@@ -1,0 +1,40 @@
+name: Train Wine Quality Model CI
+
+# Trigger: Workflow berjalan setiap kali ada push ke branch 'main'
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-train-and-upload:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Checkout kode dari repositori
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # 2. Setup Python
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.9'
+
+    # 3. Install dependensi
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    # 4. Jalankan skrip training
+    #    Lingkungan MLflow akan menyimpan hasilnya di folder 'mlruns'
+    - name: Run training script
+      run: python modelling.py
+
+    # 5. Simpan artefak (folder mlruns) ke GitHub
+    #    Artefak ini berisi semua data eksperimen, termasuk model yang sudah terlatih.
+    - name: Upload MLflow artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: wine-quality-mlruns
+        path: mlruns/
